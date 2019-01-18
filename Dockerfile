@@ -1,4 +1,4 @@
-FROM node:8.2.1
+FROM nginx
 RUN apt-get update && apt-get install -y nginx
 WORKDIR /app
 COPY . /app/
